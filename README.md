@@ -22,5 +22,5 @@ Open http://localhost:4200
   * Uses [immutablejs](https://facebook.github.io/immutable-js/) to store state in reducers
 
 ### Further reading
-  ** [http://onehungrymind.com/build-better-angular-2-application-redux-ngrx/]
-  ** [https://medium.com/google-developer-experts/angular-2-introduction-to-redux-1cf18af27e6e]
+  * [http://onehungrymind.com/build-better-angular-2-application-redux-ngrx/]
+  * [https://medium.com/google-developer-experts/angular-2-introduction-to-redux-1cf18af27e6e]
