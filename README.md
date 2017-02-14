@@ -16,9 +16,9 @@ npm start
 
 ## Resources
 
-  * Built with [Angular2 CLI](https://angular.io/docs/ts/latest/cli-quickstart.html)
-  * Uses [@angular-redux/store](https://github.com/angular-redux/store) to setup redux
-  * Uses [immutablejs](https://facebook.github.io/immutable-js/) to store state in reducers
+  * Created with [Angular2 CLI](https://angular.io/docs/ts/latest/cli-quickstart.html)
+  * Uses [@angular-redux/store](https://github.com/angular-redux/store) to setup redux [here](blob/master/src/app/todos/todos.module.ts)
+  * Uses [immutablejs](https://facebook.github.io/immutable-js/) to store state in [reducers](blob/master/src/app/todos/reducers/todo.reducer.ts)
 
 ### Further reading
   * [Angular 2 Application Architecture - Building Flux Apps with Redux and Immutable.js](http://blog.angular-university.io/angular-2-application-architecture-building-flux-like-apps-using-redux-and-immutable-js-js/)
