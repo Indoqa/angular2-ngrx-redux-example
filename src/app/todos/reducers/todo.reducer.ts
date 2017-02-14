@@ -1,5 +1,5 @@
-import {TodoActions} from '../actions/todos.actions';
-import {fromJS, Map} from 'immutable';
+import { TodoActions } from '../actions/todos.actions';
+import { fromJS, Map } from 'immutable';
 
 const INITIAL_STATE = fromJS({
   list: ['todo1', 'todo2', 'todo3']

@@ -10,7 +10,6 @@ import { TodoActions } from '../actions/todos.actions';
 
 export class ListComponent {
   @select(['todos', 'list']) readonly list$;
-  @select(['todos', 'test', 'test1']) readonly test1;
 
   constructor(
     private ngRedux: NgRedux<AppState>,
