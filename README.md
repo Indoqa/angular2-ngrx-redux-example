@@ -1,5 +1,5 @@
 # Angular2 Redux Example 
-A simple todo list example written in typescript that shows state handling with redux and immutablejs in angular2 applications.
+A simple todo list example written in typescript that shows state handling with redux and immutablejs in angular2 applications. To simulate a more complex application, the redux integration and all components are placed inside a feature module 'todos'.
 
 ## Setup
 ```
