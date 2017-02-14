@@ -14,7 +14,7 @@ Start dev environment and open http://localhost:4200
 npm start
 ```
 
-## Resources
+## Docs
 
   * Created with [Angular2 CLI](https://angular.io/docs/ts/latest/cli-quickstart.html)
   * Uses [@angular-redux/store](https://github.com/angular-redux/store) to setup redux [here](src/app/todos/todos.module.ts)
