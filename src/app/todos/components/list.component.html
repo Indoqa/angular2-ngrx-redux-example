@@ -1,0 +1,8 @@
+<div>
+  <ul>
+    <li *ngFor="let todo of list$ | async; let index = index">
+      {{ todo }} <button (click)="deleteTodo(index)">x</button>
+    </li>
+  </ul>
+  <button (click)="addTodo('test!!')"> Add </button>
+</div>
