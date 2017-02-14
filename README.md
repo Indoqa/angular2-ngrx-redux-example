@@ -9,11 +9,10 @@ yarn install
 ```
 
 ## Usage
-Start dev environment:
+Start dev environment and open http://localhost:4200
 ```
 npm start
 ```
-Open http://localhost:4200
 
 ## Resources
 
@@ -23,6 +22,6 @@ Open http://localhost:4200
 
 ### Further reading
   * [Angular 2 Application Architecture - Building Flux Apps with Redux and Immutable.js](http://blog.angular-university.io/angular-2-application-architecture-building-flux-like-apps-using-redux-and-immutable-js-js/)
-  * [Angular 2 — Introduction to Redux](https://medium.com/google-developer-experts/angular-2-introduction-to-redux-1cf18af27e6e)
+  * [Angular 2  - Introduction to Redux](https://medium.com/google-developer-experts/angular-2-introduction-to-redux-1cf18af27e6e)
   * [Build a Better Angular 2 Application with Redux and ngrx](http://onehungrymind.com/build-better-angular-2-application-redux-ngrx/)
 
