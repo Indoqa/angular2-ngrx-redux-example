@@ -9,8 +9,8 @@ Every strategy is placed in a separate feature module and covers the same functi
   
 ## Installation
 ```
-git clone git@github.com:Indoqa/angular2-redux-example.git
-cd angular2-redux-example
+git clone git@github.com:Indoqa/angular2-ngrx-redux-example.git
+cd angular2-ngrx-redux-example
 yarn install
 ```
 
