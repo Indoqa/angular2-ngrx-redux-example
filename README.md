@@ -1,7 +1,7 @@
 # Angular2 Redux Example 
-A simple todo list example written in typescript that compares different state handling strategies in angular2 applications:
+A simple todo list example written in typescript that compares different state handling strategies in angular2:
 
-  * Redux bindings with [@angular-redux/store](https://github.com/angular-redux/store) to setup redux [here](src/app/todos/todos.module.ts)
+  * Redux bindings with [@angular-redux/store](https://github.com/angular-redux/store)
   * Redux like [ngrx/store](https://github.com/angular-redux/store) to setup redux [here](src/app/todos/todos.module.ts) based on RxJS 
   * Plain services using observables (without a store)
   
