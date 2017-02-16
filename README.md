@@ -2,7 +2,7 @@
 A simple todo list example written in typescript that compares different state handling strategies in angular2:
 
   * Redux bindings with [@angular-redux/store](https://github.com/angular-redux/store)
-  * Redux like [ngrx/store](https://github.com/angular-redux/store) to setup redux [here](src/app/todos/todos.module.ts) based on RxJS 
+  * Redux like [ngrx/store](https://github.com/angular-redux/store) based on RxJS 
   * Plain services using observables (without a store)
   
 Every strategy is placed in a separate feature module and covers the same functionality. Presentational components and models are shared using a commons module. Only smart components and module definitions vary and should point out the different approaches concerning setup and binding. 
