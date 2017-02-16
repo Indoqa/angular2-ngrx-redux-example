@@ -1,12 +1,9 @@
 import { Injectable } from '@angular/core';
 import { Action } from 'redux';
+import { Todo } from '../../1shared/model/Todo';
 
-interface AddTodoAction extends Action {
-  text: string;
-}
-
-interface DeleteTodoAction extends Action {
-  position: number;
+interface TodoAction extends Action {
+  todo: Todo;
 }
 
 @Injectable()
@@ -14,18 +11,17 @@ export class TodoActions {
   static ADD_TODO = 'ADD_TODO';
   static DELETE_TODO = 'DELETE_TODO';
 
-  addTodo(text: string): AddTodoAction {
+  addTodo(todo: Todo): TodoAction {
     return {
      type: TodoActions.ADD_TODO,
-     text,
+     todo,
     };
   }
 
-  deleteTodo(position: number): DeleteTodoAction {
-    console.log('position', position)
+  deleteTodo(todo: Todo): TodoAction {
     return {
       type: TodoActions.DELETE_TODO,
-      position: position
+      todo
     };
   }
 }

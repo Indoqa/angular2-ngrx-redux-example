@@ -27,4 +27,6 @@ npm start
   * [Using Redux with Angular - JS Toronto Meetup 2016-07-12](https://www.youtube.com/watch?v=s4xr2avwv3s)
   * [Getting started with Redux](https://egghead.io/courses/getting-started-with-redux)
   * [Awesome Redux: Community Resources](https://github.com/xgrommx/awesome-redux)
+  * [Angular 2 Service Layers: Redux, RxJs and Ngrx Store - When to Use a Store And Why ?](http://blog.angular-university.io/angular-2-redux-ngrx-rxjs/)
+  * [Angular 2 Smart Components vs Presentation Components: What's the Difference, When to Use Each and Why?](http://blog.angular-university.io/angular-2-smart-components-vs-presentation-components-whats-the-difference-when-to-use-each-and-why/)
 
