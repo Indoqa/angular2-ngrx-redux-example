@@ -1,6 +1,12 @@
 # Angular2 Redux Example 
-A simple todo list example written in typescript that shows state handling with redux and immutablejs in angular2 applications. To simulate a more complex application, the redux integration and all components are placed inside a feature module called 'todos'.
+A simple todo list example written in typescript that compares different state handling strategies in angular2 applications:
 
+  * Redux bindings with [@angular-redux/store](https://github.com/angular-redux/store) to setup redux [here](src/app/todos/todos.module.ts)
+  * Redux like [ngrx/store](https://github.com/angular-redux/store) to setup redux [here](src/app/todos/todos.module.ts) based on RxJS 
+  * Plain services using observables (without a store)
+  
+Every strategy is placed in a separate feature module and covers the same functionality. Presentational components and models are shared using a commons module. Only smart components and module definitions vary and should point out the different approaches concerning setup and binding. 
+  
 ## Setup
 ```
 git clone git@github.com:Indoqa/angular2-redux-example.git
@@ -17,8 +23,10 @@ npm start
 ## Docs
 
   * Created with [Angular2 CLI](https://angular.io/docs/ts/latest/cli-quickstart.html)
-  * Uses [@angular-redux/store](https://github.com/angular-redux/store) to setup redux [here](src/app/todos/todos.module.ts)
-  * Uses [immutablejs](https://facebook.github.io/immutable-js/) to store state in [reducers](src/app/todos/reducers/todo.reducer.ts)
+  * [@angular-redux/store](https://github.com/angular-redux/store) 
+  * [ngrx/store](https://github.com/ngrx/store)
+  * All stores use [immutablejs](https://facebook.github.io/immutable-js/) data structures.
+  * Note: Actions and Reducers in redux and ngrx are exactly the same ;) Data manipulation using immutable is even pretty similar inside the 
 
 ### Further reading
   * [Angular 2 Application Architecture - Building Flux Apps with Redux and Immutable.js](http://blog.angular-university.io/angular-2-application-architecture-building-flux-like-apps-using-redux-and-immutable-js-js/)
