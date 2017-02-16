@@ -1,5 +1,5 @@
 # Angular2 state handling example 
-A simple todo list example written in typescript that compares the setup an dintegration of different state handling strategies in angular2:
+A simple todo list example written in typescript that compares the setup and integration of different state handling strategies in angular2:
 
   * Redux bindings with [@angular-redux/store](https://github.com/angular-redux/store)
   * Redux like [ngrx/store](https://github.com/angular-redux/store) based on RxJS 
@@ -28,9 +28,10 @@ npm start
   * All stores use [immutablejs](https://facebook.github.io/immutable-js/) data structures.
   
 ### Notes  
-  * Actions and Reducers in redux and ngrx are exactly the same.
+  * Actions and Reducers in redux and ngrx are exactly the same (at least in thsi small example ;) ).
   * Data manipulation using immutable is identical in all three approaches. 
   * Redux and Ngrx provide the same dev tools (logging, timetravel, state debugging etc.)
+  * See articles below for a vast range of meanings, oppinions and hints for choosing the right state.
   
 ### Further reading
   * [Angular 2 Smart Components vs Presentation Components: What's the Difference, When to Use Each and Why?](http://blog.angular-university.io/angular-2-smart-components-vs-presentation-components-whats-the-difference-when-to-use-each-and-why/)
