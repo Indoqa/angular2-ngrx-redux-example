@@ -31,7 +31,7 @@ npm start
   * Actions and Reducers in redux and ngrx are exactly the same (at least in this small example ;) ).
   * Data manipulation using immutable is identical in all three approaches. 
   * Observables are used to deliver data to smart components in all three strategies. 
-  * Templates may bind directly to these observables using `| asynx`. Change detection may be optimized.
+  * Templates may bind directly to these observables using `| async`. Change detection may be optimized.
   * Smart components may do more advanced reactive manipulations (filtering, sorting, slicing,..) before passing data down to render.
   * Redux and Ngrx provide the same dev tools (logging, timetravel, state debugging etc.)
   * See articles below for a vast range of meanings, opinions and hints for choosing the right state.
