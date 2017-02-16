@@ -27,7 +27,7 @@ npm start
   * Ngrx binding: [ngrx/store](https://github.com/ngrx/store)
   * All stores use [immutablejs](https://facebook.github.io/immutable-js/) data structures.
   
-## Notes  
+### Notes  
   * Actions and Reducers in redux and ngrx are exactly the same (you could use the same file) ;) 
   * Data manipulation using immutable is identical in all three approaches. 
   * Redux and Ngrx provide the same dev tools (logging, timetravel, state debugging etc.)
