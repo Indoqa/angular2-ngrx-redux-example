@@ -1,11 +1,11 @@
 # Angular2 state handling example 
-A simple todo list example written in typescript that compares different state handling strategies in angular2:
+A simple todo list example written in typescript that compares the setup an dintegration of different state handling strategies in angular2:
 
   * Redux bindings with [@angular-redux/store](https://github.com/angular-redux/store)
   * Redux like [ngrx/store](https://github.com/angular-redux/store) based on RxJS 
   * Plain services using observables (without a store)
   
-Every strategy is placed in a separate feature module and covers the same functionality. Presentational components and models are shared using a commons module. Only smart components and module definitions vary and should point out the different approaches concerning setup and binding. 
+Every strategy is placed in a separate feature module and covers the same functionality. Presentational components and models are shared using a commons module.
   
 ## Installation
 ```
@@ -28,10 +28,10 @@ npm start
   * All stores use [immutablejs](https://facebook.github.io/immutable-js/) data structures.
   
 ### Notes  
-  * Actions and Reducers in redux and ngrx are exactly the same (you could use the same file) ;) 
+  * Actions and Reducers in redux and ngrx are exactly the same.
   * Data manipulation using immutable is identical in all three approaches. 
   * Redux and Ngrx provide the same dev tools (logging, timetravel, state debugging etc.)
-
+  
 ### Further reading
   * [Angular 2 Smart Components vs Presentation Components: What's the Difference, When to Use Each and Why?](http://blog.angular-university.io/angular-2-smart-components-vs-presentation-components-whats-the-difference-when-to-use-each-and-why/)
   * [Angular 2 Service Layers: Redux, RxJs and Ngrx Store - When to Use a Store And Why ?](http://blog.angular-university.io/angular-2-redux-ngrx-rxjs/)
@@ -41,5 +41,8 @@ npm start
   * [Using Redux with Angular - JS Toronto Meetup 2016-07-12](https://www.youtube.com/watch?v=s4xr2avwv3s)
   * [Getting started with Redux](https://egghead.io/courses/getting-started-with-redux)
   * [Awesome Redux: Community Resources](https://github.com/xgrommx/awesome-redux)
+  * [ngrx: Comparison to redux](https://github.com/ngrx/store/issues/16)
+  * [From Redux to Angular ngrx/store] (https://julienrenaux.fr/2017/02/16/from-redux-to-angular-ngrxstore/)
+  * [Angular 2 Service Layers: Redux, RxJs and Ngrx Store - When to Use a Store And Why ?] (https://medium.com/@charlie_gee/redux-vs-rxjs-ngrx-store-db6066058719#.p4l2ss8hi)
   
 
