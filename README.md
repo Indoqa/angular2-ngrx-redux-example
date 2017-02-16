@@ -28,10 +28,10 @@ npm start
   * All stores use [immutablejs](https://facebook.github.io/immutable-js/) data structures.
   
 ### Notes  
-  * Actions and Reducers in redux and ngrx are exactly the same (at least in thsi small example ;) ).
+  * Actions and Reducers in redux and ngrx are exactly the same (at least in this small example ;) ).
   * Data manipulation using immutable is identical in all three approaches. 
   * Redux and Ngrx provide the same dev tools (logging, timetravel, state debugging etc.)
-  * See articles below for a vast range of meanings, oppinions and hints for choosing the right state.
+  * See articles below for a vast range of meanings, opinions and hints for choosing the right state.
   
 ### Further reading
   * [Angular 2 Smart Components vs Presentation Components: What's the Difference, When to Use Each and Why?](http://blog.angular-university.io/angular-2-smart-components-vs-presentation-components-whats-the-difference-when-to-use-each-and-why/)
