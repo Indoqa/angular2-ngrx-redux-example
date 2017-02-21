@@ -3,7 +3,8 @@ import { Store } from '@ngrx/store';
 import { AppState } from '../../1shared/model/AppState';
 import { Todo } from '../../1shared/model/Todo';
 import { TodoActions } from '../actions/todos.actions';
-
+import { Observable } from 'rxjs/Observable';
+import { List } from 'immutable';
 
 @Component({
   selector: 'app-ngrx-list',
@@ -18,7 +19,7 @@ import { TodoActions } from '../actions/todos.actions';
 
 export class NgrxListComponent {
 
-  list$;
+  readonly list$: Observable<List<Todo>>;
 
   constructor(
     private store: Store<AppState>,

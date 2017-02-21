@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { NgRedux , select} from '@angular-redux/store';
 import { AppState } from '../../1shared/model/AppState';
+import { Observable } from 'rxjs/Observable';
+import { List } from 'immutable';
 import { Todo } from '../../1shared/model/Todo';
 import { TodoActions } from '../actions/todos.actions';
 
@@ -16,12 +18,15 @@ import { TodoActions } from '../actions/todos.actions';
 })
 
 export class ReduxListComponent {
-  @select(['todos', 'list']) readonly list$;
+
+  readonly list$: Observable<List<Todo>>;
 
   constructor(
     private ngRedux: NgRedux<AppState>,
     private todoActions: TodoActions
-  ) {}
+  ) {
+    this.list$ = this.ngRedux.select(['todos', 'list']);
+  }
 
   addTodo(todo: Todo) {
     this.ngRedux.dispatch(this.todoActions.addTodo(todo));

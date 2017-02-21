@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Todo } from '../../1shared/model/Todo';
 import { TodoService } from '../services/todo.service';
+import { Observable } from 'rxjs/Observable';
 import { List } from 'immutable';
 
 @Component({
@@ -15,7 +16,8 @@ import { List } from 'immutable';
 })
 
 export class PlainListComponent {
-  list$;
+
+  readonly list$: Observable<List<Todo>>;
 
   constructor(private todoService: TodoService) {
     this.list$ = this.todoService.getTodos();
